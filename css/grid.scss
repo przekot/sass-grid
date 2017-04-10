@@ -1,0 +1,72 @@
+@import 'reset';
+@import 'vars';
+@import 'mixins';
+
+body, html {
+  width:100%;
+  height:100%;
+}
+.grid-container {
+  max-width:100%;
+  margin-left:2%;
+  margin-right:2%;
+}
+
+.row {
+  &:before, &:after {
+    content: '';
+    clear:both;
+  }
+}
+
+[class*=col-] {
+  min-height:1px;
+  float:left;
+  padding:0 $gutter;
+  box-sizing:border-box;
+  margin:$margin;
+
+  img {
+    width:100%;
+    height:auto;
+  }
+
+}
+
+@for $i from 1 through $numberOfCols {
+  .col-small-#{$i} {
+    width: percentage($i/$numberOfCols) - $margin*2;
+  }
+}
+
+@include tablet {
+  @for $i from 1 through $numberOfCols {
+    .col-medium-#{$i} {
+      width: percentage($i/$numberOfCols) - $margin*2;
+    }
+  }
+}
+
+@include desktop {
+  @for $i from 1 through $numberOfCols {
+    .col-large-#{$i} {
+      width: percentage($i/$numberOfCols) - $margin*2;
+    }
+  }
+}
+
+.main {
+  height:350px;
+}
+.yellow {
+  background: #ffff77;
+}
+.orange {
+  background: #ff875c;
+}
+.violet {
+  background: #ca60ff;
+}
+.mint {
+  background: #6affe4;
+}

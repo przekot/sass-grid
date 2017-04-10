@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+.grid-container {
+  max-width: 100%;
+  margin-left: 2%;
+  margin-right: 2%; }
+
+.row:before, .row:after {
+  content: '';
+  clear: both; }
+
+[class*=col-] {
+  min-height: 1px;
+  float: left;
+  padding: 0 5px;
+  box-sizing: border-box;
+  margin: 0.5%; }
+  [class*=col-] img {
+    width: 100%;
+    height: auto; }
+
+.col-small-1 {
+  width: 7.33333%; }
+
+.col-small-2 {
+  width: 15.66667%; }
+
+.col-small-3 {
+  width: 24%; }
+
+.col-small-4 {
+  width: 32.33333%; }
+
+.col-small-5 {
+  width: 40.66667%; }
+
+.col-small-6 {
+  width: 49%; }
+
+.col-small-7 {
+  width: 57.33333%; }
+
+.col-small-8 {
+  width: 65.66667%; }
+
+.col-small-9 {
+  width: 74%; }
+
+.col-small-10 {
+  width: 82.33333%; }
+
+.col-small-11 {
+  width: 90.66667%; }
+
+.col-small-12 {
+  width: 99%; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .col-medium-1 {
+    width: 7.33333%; }
+
+  .col-medium-2 {
+    width: 15.66667%; }
+
+  .col-medium-3 {
+    width: 24%; }
+
+  .col-medium-4 {
+    width: 32.33333%; }
+
+  .col-medium-5 {
+    width: 40.66667%; }
+
+  .col-medium-6 {
+    width: 49%; }
+
+  .col-medium-7 {
+    width: 57.33333%; }
+
+  .col-medium-8 {
+    width: 65.66667%; }
+
+  .col-medium-9 {
+    width: 74%; }
+
+  .col-medium-10 {
+    width: 82.33333%; }
+
+  .col-medium-11 {
+    width: 90.66667%; }
+
+  .col-medium-12 {
+    width: 99%; } }
+@media (min-width: 1024px) {
+  .col-large-1 {
+    width: 7.33333%; }
+
+  .col-large-2 {
+    width: 15.66667%; }
+
+  .col-large-3 {
+    width: 24%; }
+
+  .col-large-4 {
+    width: 32.33333%; }
+
+  .col-large-5 {
+    width: 40.66667%; }
+
+  .col-large-6 {
+    width: 49%; }
+
+  .col-large-7 {
+    width: 57.33333%; }
+
+  .col-large-8 {
+    width: 65.66667%; }
+
+  .col-large-9 {
+    width: 74%; }
+
+  .col-large-10 {
+    width: 82.33333%; }
+
+  .col-large-11 {
+    width: 90.66667%; }
+
+  .col-large-12 {
+    width: 99%; } }
+.main {
+  height: 350px; }
+
+.yellow {
+  background: #ffff77; }
+
+.orange {
+  background: #ff875c; }
+
+.violet {
+  background: #ca60ff; }
+
+.mint {
+  background: #6affe4; }
+
+/*# sourceMappingURL=grid.css.map */
